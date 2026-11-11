@@ -1,0 +1,26 @@
+[project]
+name = "rag-leis"
+version = "0.1.0"
+description = "RAG de estudo sobre legislação brasileira (trabalhista, tributária e inventário) com LlamaIndex"
+authors = [
+    { name = "Adriano O. Barbosa", email = "adriano.barbosa90@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "llama-index-core>=0.14.25",
+    "llama-index-embeddings-ollama>=0.10.0",
+    "llama-index-llms-anthropic>=0.12.3",
+    "llama-index-llms-google-genai>=0.11.3",
+    "llama-index-llms-ollama>=0.11.0",
+    "llama-index-llms-openai-like>=0.8.1",
+    "llama-index-retrievers-bm25>=0.8.0",
+    "llama-index-vector-stores-qdrant>=0.10.4",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "qdrant-client>=1.20.0",
+    "streamlit>=1.67.0",
+]
+
+[tool.uv]
+link-mode = "copy"
