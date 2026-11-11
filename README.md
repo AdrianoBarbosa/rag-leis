@@ -4,6 +4,8 @@ Projeto de estudo de RAG (Retrieval-Augmented Generation) com **LlamaIndex**, us
 [ctresb/leis](https://github.com/ctresb/leis) e focado em três áreas: **trabalhista**,
 **tributária** e **inventário/sucessões**.
 
+![Interface do RAG respondendo sobre fracionamento de férias, com citações da CLT](docs/interface.png)
+
 ```
                        INDEXAÇÃO (uma vez)
  markdown das leis ─► chunk por artigo ─► bge-m3 (Ollama) ─► Qdrant (vetores)
